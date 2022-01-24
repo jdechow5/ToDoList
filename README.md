@@ -32,6 +32,11 @@ ToDoList;
 
 *Expected output:* 
 
+### Description: ToDoList.prototype.completedTask {}
+
+*Test:* "This method will enable 
+*Code:*
+
 ### Description: Task {}
 
 *Test:* "It should create a constructor object for a task, with a series of keys and values."
