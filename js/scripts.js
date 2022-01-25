@@ -25,6 +25,12 @@ ToDoList.prototype.markDone = function(task) {
   // }
 }
 
+ToDoList.prototype.notDone = function(task) {
+  task.completed = false;
+  this.tasks[task.id] = task;
+  delete this.completedTasks[task.id];
+}
+
 // psuedo-code task.completed(true);
 
 //  TASK OBJECT/METHODS
